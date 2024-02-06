@@ -5,13 +5,13 @@ import "./dark_clouds.css";
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <div className="background-container -z-10">
-        <div className="stars"></div>
-        <div className="twinkling"></div>
-        <div className="clouds"></div>
-      </div>
       <SideSocials/>
-      <div className="w-full h-full">
+      <div className="w-full h-full" >
+        <div className="background-container -z-10 box" style={{height:"110vh"}}>
+          <div className="stars"></div>
+          <div className="twinkling"></div>
+          <div className="clouds"></div>
+        </div>
         <div className="flex w-full h-screen z-1">
           <div className="flex basis-1/2">
             main icon
@@ -22,7 +22,7 @@ export default function Home() {
               <div className="text-8xl border-b-4">
                 Richard Ma
               </div>
-              <div>
+              <div className="mt-2">
                 Software Engineer, HBSc Computer Science from University of Toronto
               </div>
             </div>
@@ -32,8 +32,17 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
-        About Me
+      <div className="mt-20">
+        <div>About Me</div>
+        <div>
+          Hello, my name is Richard!
+          As a software engineer, I am fueled by my passion for technology and my 
+          love for learning and solving new challenges. I have professional experience 
+          building responsive React webpages, and in depth back-end knowledge on data 
+          structures, algorithms, and databases gained during my undergraduate studies. 
+          I am constantly seeking out new opportunities to grow my skills and knowledge, 
+          and I approach each challenge with enthusiasm and curiosity.
+        </div>
       </div>
       <div>
         Experience 
