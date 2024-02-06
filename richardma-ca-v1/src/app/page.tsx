@@ -1,34 +1,34 @@
-import image1 from './Images/placeholder_headshot_1.jpg';
+import image1 from './Images/airplane-pic.png';
 import SideSocials from './Components/sideSocials';
 import "./dark_clouds.css";
 
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <div className="background-container">
+      <div className="background-container -z-10">
         <div className="stars"></div>
         <div className="twinkling"></div>
         <div className="clouds"></div>
       </div>
       <SideSocials/>
-      <div className="absolute w-1/2 left-48 top-36">
-        <div className="text-2xl">
-          Hi, my name is
-        </div>
-        <div className="text-8xl">
-          Richard Ma
-        </div>
-        <div>
-          Software Engineer, HBSc Computer Science from University of Toronto
-        </div>
-      </div>
-      <div className="container">
-        <div className="flex w-full h-screen ">
-          <div className="basis-1/2">
+      <div className="w-full h-full">
+        <div className="flex w-full h-screen z-1">
+          <div className="flex basis-1/2">
             main icon
+            <div className="flex flex-col absolute left-36 top-36">
+              <div className="text-2xl">
+                Hi, my name is
+              </div>
+              <div className="text-8xl border-b-4">
+                Richard Ma
+              </div>
+              <div>
+                Software Engineer, HBSc Computer Science from University of Toronto
+              </div>
+            </div>
           </div>
-          <div className="basis-1/2 flex justify-end">
-            <img className="h-screen w-auto border-l-white-500 border-l-4" src={image1.src} />
+          <div className="flex justify-center items-center basis-1/2 w-1/3">
+            <img className="h-2/3 border-4 " src={image1.src} />
           </div>
         </div>
       </div>
