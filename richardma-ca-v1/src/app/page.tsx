@@ -3,7 +3,8 @@ import { BsArrowDown } from "react-icons/bs";
 
 import SideSocials from './Components/sideSocials';
 import DarkSky from './Components/darkSky';
-import Header from './Components/Header';
+import Header from "./Components/Header";
+import NavBar from "./Components/navBar";
 
 export default function Home() {
   return (
@@ -11,9 +12,11 @@ export default function Home() {
       <SideSocials/>
       {/* first section */}
       <div className="w-full h-full" >
+        <NavBar/>
         <DarkSky/>
         <Header/>
       </div>
+      {/* second section */}
       <div className="mt-20">
         <div>About Me</div>
         <div>
