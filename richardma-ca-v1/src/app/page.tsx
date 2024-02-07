@@ -54,9 +54,12 @@ export default function Home() {
           <div className="bg-zinc-800 basis-1/2 p-4">
             <div className="flex justify-between">
               <div className="font-bold">Intermediate Front-End Developer</div>
-              <div>Aug 2022-May 2023</div>
+              <div>Jun 2022-May 2023</div>
             </div>
-            <div className="">DeckerMed</div>
+            <div className="flex justify-between">
+              <div className="text-zinc-500">Junior Full-Stack Developer</div>
+              <div className="italic">DeckerMed</div>
+            </div>
             <p className="mt-4">
               Live pages demonstrating work:<br/>
               www.deckerip.com<br/>
@@ -69,19 +72,25 @@ export default function Home() {
       </div>
       <div id="skill" className="mt-40 px-24">
         <div className="text-5xl border-b-4 w-fit">Skills</div>
-        <div className="mt-4">
-          <div>Languages:</div>
-          <ul className="flex flex-wrap space-x-4">
-            {languages}
-          </ul>
-          <div>Frameworks:</div>
-          <ul className="flex flex-wrap space-x-4">
-            {frameworks}
-          </ul>
-          <div>Others:</div>
-          <ul className="flex flex-wrap space-x-4">
-            {otherskills}
-          </ul>
+        <div className="mt-4 flex flex-col space-y-4">
+          <div>
+            <div className="text-xl">Languages:</div>
+            <ul className="flex flex-wrap space-x-4 border-r-4 pr-3 w-fit">
+              {languages}
+            </ul>
+          </div>
+          <div>
+            <div className="text-xl">Frameworks:</div>
+            <ul className="flex flex-wrap space-x-4 border-r-4 pr-3 w-fit">
+              {frameworks}
+            </ul>
+          </div>
+          <div>
+            <div className="text-xl">Others:</div>
+            <ul className="flex flex-wrap space-x-4 border-r-4 pr-3 w-fit">
+              {otherskills}
+            </ul>
+          </div>
         </div>
       </div>
       <div id="skill" className="mt-40 px-24">
