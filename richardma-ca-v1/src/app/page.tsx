@@ -4,15 +4,15 @@ import { BsArrowDown } from "react-icons/bs";
 import SideSocials from './Components/sideSocials';
 import DarkSky from './Components/darkSky';
 import Header from "./Components/header";
-import NavBar from "./Components/navBar";
 
 export default function Home() {
   return (
     <main className="flex flex-col">
       <SideSocials/>
+      
       {/* first section */}
       <div className="w-full h-full" >
-        <NavBar/>
+
         <DarkSky/>
         <Header/>
       </div>
