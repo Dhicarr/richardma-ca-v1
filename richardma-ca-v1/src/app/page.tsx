@@ -3,6 +3,7 @@ import SideSocials from './Components/sideSocials';
 import "./dark_clouds.css";
 
 import { TbHexagonLetterR } from "react-icons/tb";
+import { BsArrowDown } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         <div className="flex w-full h-screen z-1">
           <div className="flex basis-1/2">
             <div>
-              <TbHexagonLetterR size={"40px"}/>
+              <TbHexagonLetterR size={"60px"}/>
             </div>
             <div className="flex flex-col absolute left-36 top-36">
               <div className="text-2xl">
@@ -27,7 +28,10 @@ export default function Home() {
                 Richard Ma
               </div>
               <div className="mt-2">
-                Software Engineer, HBSc Computer Science from University of Toronto
+                <b>Software Engineer</b>, HBSc Computer Science from University of Toronto
+              </div>
+              <div className="mt-32 ml-auto mr-auto">
+                <BsArrowDown size={"40px"}/>
               </div>
             </div>
           </div>
