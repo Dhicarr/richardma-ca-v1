@@ -15,7 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -36,4 +38,8 @@ body {
   --mask: conic-gradient(from -47.5deg at bottom,#0000,#000 1deg 94deg,#0000 95deg) 50%/87.30px 100%;
   -webkit-mask: var(--mask);
           mask: var(--mask);
+}
+
+.white-shadow{
+  box-Shadow: 12px 12px white;
 }

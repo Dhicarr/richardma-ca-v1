@@ -16,7 +16,7 @@ const Header = (): JSX.Element => {
           <div className="text-2xl">
             <span className="fade-in-1 opacity-0">Hi</span><span className="fade-in-2 opacity-0">, my name is</span>
           </div>
-          <div className="fade-in-3 opacity-0 text-8xl border-b-4">
+          <div className="fade-in-3 opacity-0 text-8xl border-b-4 mt-2">
             Richard Ma
           </div>
           <div className="fade-in-4 opacity-0 mt-2">
@@ -33,7 +33,7 @@ const Header = (): JSX.Element => {
       </div>
       <div className="fade-in-image opacity-0 flex flex-col justify-center items-center basis-1/2 w-1/3">
         <NavBar/>
-        <img className="h-2/3 border-4" src={image1.src} />
+        <img className="white-shadow h-2/3 border-4" src={image1.src} />
       </div>
     </main>
   );

@@ -33,7 +33,7 @@ export default function Home() {
         <div className="text-6xl border-b-4 w-fit">Experience</div>
         <div className="flex mt-4">
           <div className="basis-1/2 border-4">
-            <img src="https://dhicarr.github.io/images/desktop_view.gif"/>
+            <img className="white-shadow" src="https://dhicarr.github.io/images/desktop_view.gif"/>
           </div>
           <div className="basis-1/2">
             <div>Intermediate Front-End Developer</div>
