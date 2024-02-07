@@ -6,6 +6,8 @@ import DarkSky from './Components/darkSky';
 import Header from "./Components/header";
 import Skill from "./Components/skill";
 
+import deckerGif from './Images/deckermed-slideshow.gif';
+
 export default function Home() {
   const skillsList=[
     ['Typescript', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Python', 'Java', 'C', 'SQL', 'Bash', 'LaTeX'],
@@ -33,7 +35,7 @@ export default function Home() {
       {/* second section */}
       <div id="about" className="mt-40 px-24 ">
         <div className="text-5xl border-b-4 w-fit">About Me</div>
-        <div className="text-xl mt-4 border-l-4 pl-2">
+        <div className="text-xl mt-4 border-l-4 pl-4">
           <p>
             As a software engineer, I am fueled by my passion for technology and my 
             love for learning and solving new challenges. I have professional experience 
@@ -49,7 +51,7 @@ export default function Home() {
         <div className="text-5xl border-b-4 w-fit">Experience</div>
         <div className="flex mt-4 p-4 border-corner flex-wrap">
           <div className="basis-1/2 m-auto">
-            <img className="h-full w-auto flex justify-center" src="https://dhicarr.github.io/images/desktop_view.gif"/>
+            <img className="h-full w-auto flex justify-center" src={deckerGif.src}/>
           </div>
           <div className="bg-zinc-800 basis-1/2 p-4">
             <div className="flex justify-between">
