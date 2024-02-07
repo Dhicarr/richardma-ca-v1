@@ -15,7 +15,7 @@ export default function Home() {
         <Header/>
       </div>
       {/* second section */}
-      <div id="about" className="mt-40 px-24">
+      <div id="about" className="mt-40 px-24 ">
         <div className="text-6xl border-b-4 w-fit">About Me</div>
         <div className="text-xl mt-4">
           <p>
@@ -32,8 +32,8 @@ export default function Home() {
       <div id="experience" className="mt-40 px-24">
         <div className="text-6xl border-b-4 w-fit">Experience</div>
         <div className="flex mt-4">
-          <div className="basis-1/2 border-4">
-            <img className="white-shadow" src="https://dhicarr.github.io/images/desktop_view.gif"/>
+          <div className="basis-1/2">
+            <img className="white-shadow border-4 w-3/4 h-auto" src="https://dhicarr.github.io/images/desktop_view.gif"/>
           </div>
           <div className="basis-1/2">
             <div>Intermediate Front-End Developer</div>
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
       <div id="skill">
-
+        Skills
       </div>
       <div>
         Projects 
