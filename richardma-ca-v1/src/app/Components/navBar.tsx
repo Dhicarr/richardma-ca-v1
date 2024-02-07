@@ -3,7 +3,7 @@ import React, { ReactNode } from "react";
 const NavBar = (): JSX.Element => {
   return (
     <main className="mb-1">
-      <ul className="flex space-x-4 w-fit font-bold">
+      <ul className="flex space-x-8 w-fit font-bold">
         <li className="hover:text-sky-500 transition-colors">
           <a href="#about">About</a>
         </li>

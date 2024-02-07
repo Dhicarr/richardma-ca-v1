@@ -9,28 +9,43 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       <SideSocials/>
-      
       {/* first section */}
       <div className="w-full h-full" >
-
         <DarkSky/>
         <Header/>
       </div>
       {/* second section */}
-      <div className="mt-20">
-        <div>About Me</div>
-        <div>
-          Hello, my name is Richard!
-          As a software engineer, I am fueled by my passion for technology and my 
-          love for learning and solving new challenges. I have professional experience 
-          building responsive React webpages, and in depth back-end knowledge on data 
-          structures, algorithms, and databases gained during my undergraduate studies. 
-          I am constantly seeking out new opportunities to grow my skills and knowledge, 
-          and I approach each challenge with enthusiasm and curiosity.
+      <div id="about" className="mt-40 px-24">
+        <div className="text-6xl border-b-4 w-fit">About Me</div>
+        <div className="text-xl mt-4">
+          <p>
+            As a software engineer, I am fueled by my passion for technology and my 
+            love for learning and solving new challenges. I have professional experience 
+            building responsive React webpages, and in depth back-end knowledge on data 
+            structures, algorithms, and databases gained during my undergraduate studies. 
+            I am constantly seeking out new opportunities to grow my skills and knowledge, 
+            and I approach each challenge with enthusiasm and curiosity.
+          </p>
         </div>
       </div>
-      <div>
-        Experience 
+      {/* third section */}
+      <div id="experience" className="mt-40 px-24">
+        <div className="text-6xl border-b-4 w-fit">Experience</div>
+        <div className="flex mt-4">
+          <div className="basis-1/2 border-4">
+            <img src="https://dhicarr.github.io/images/desktop_view.gif"/>
+          </div>
+          <div className="basis-1/2">
+            <div>Intermediate Front-End Developer</div>
+            <div>DeckerMed</div>
+            <p>
+              x x x x x
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="skill">
+
       </div>
       <div>
         Projects 
