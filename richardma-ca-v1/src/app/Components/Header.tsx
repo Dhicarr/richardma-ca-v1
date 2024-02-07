@@ -7,7 +7,7 @@ import "../animation.css";
 
 const Header = (): JSX.Element => {
   return (
-    <main className="flex w-full h-screen z-1 overflow-x-hidden">
+    <main className="flex w-full h-screen z-1 overflow-hidden">
       <div className="flex basis-1/2">
         <div className="hover:text-sky-500 transition-colors h-fit absolute top-0 left-0">
           <TbHexagonLetterR size={"60px"}/>
