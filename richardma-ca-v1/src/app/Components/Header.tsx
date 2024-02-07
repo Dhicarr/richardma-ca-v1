@@ -7,7 +7,7 @@ import "../animation.css";
 
 const Header = (): JSX.Element => {
   return (
-    <main className="flex w-full h-screen z-1">
+    <main className="flex w-full h-screen z-1 overflow-x-hidden">
       <div className="flex basis-1/2">
         <div className="hover:text-sky-500 transition-colors h-fit">
           <TbHexagonLetterR size={"60px"}/>
@@ -31,7 +31,7 @@ const Header = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center basis-1/2 w-1/3">
+      <div className="fade-in-image opacity-0 flex flex-col justify-center items-center basis-1/2 w-1/3">
         <NavBar/>
         <img className="h-2/3 border-4" src={image1.src} />
       </div>
