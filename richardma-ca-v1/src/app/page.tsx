@@ -3,7 +3,7 @@ import { BsArrowDown } from "react-icons/bs";
 
 import SideSocials from './Components/sideSocials';
 import DarkSky from './Components/darkSky';
-import Header from "./Components/Header";
+import Header from "./Components/header";
 import NavBar from "./Components/navBar";
 
 export default function Home() {

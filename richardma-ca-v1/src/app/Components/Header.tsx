@@ -28,7 +28,7 @@ const Header = (): JSX.Element => {
         </div>
       </div>
       <div className="flex justify-center items-center basis-1/2 w-1/3">
-        <img className="h-2/3 border-4 " src={image1.src} />
+        <img className="h-2/3 border-4" src={image1.src} />
       </div>
     </main>
   );
