@@ -7,6 +7,21 @@ import Header from "./Components/header";
 import Skill from "./Components/skill";
 
 export default function Home() {
+  const skillsList=[
+    ['Typescript', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Python', 'Java', 'C', 'SQL', 'Bash', 'LaTeX'],
+    ['React.js','Next.js','Redux','Tailwind','Material-UI', 'Bootstrap','SaSS','PostgresQL','MongoDB'],
+    ['AWS RDS', 'AWS Amplify', 'Git', 'VS Code', 'Unix']
+  ]
+  const languages = skillsList[0].map((skillName) => (
+    <Skill name={skillName} />
+  ))
+  const frameworks = skillsList[1].map((skillName) => (
+    <Skill name={skillName} />
+  ))
+  const otherskills = skillsList[2].map((skillName) => (
+    <Skill name={skillName} />
+  ))
+
   return (
     <main className="flex flex-col">
       <SideSocials/>
@@ -32,9 +47,9 @@ export default function Home() {
       {/* third section */}
       <div id="experience" className="mt-40 px-24">
         <div className="text-5xl border-b-4 w-fit">Experience</div>
-        <div className="flex mt-4 p-4 border-corner">
+        <div className="flex mt-4 p-4 border-corner flex-wrap">
           <div className="basis-1/2 m-auto">
-            <img className=" h-auto flex justify-center" src="https://dhicarr.github.io/images/desktop_view.gif"/>
+            <img className="h-full w-auto flex justify-center" src="https://dhicarr.github.io/images/desktop_view.gif"/>
           </div>
           <div className="bg-zinc-800 basis-1/2 p-4">
             <div className="flex justify-between">
@@ -55,9 +70,17 @@ export default function Home() {
       <div id="skill" className="mt-40 px-24">
         <div className="text-5xl border-b-4 w-fit">Skills</div>
         <div className="mt-4">
+          <div>Languages:</div>
           <ul className="flex flex-wrap space-x-4">
-            <Skill name="Javascript"/>
-            <Skill name="HTML"/>
+            {languages}
+          </ul>
+          <div>Frameworks:</div>
+          <ul className="flex flex-wrap space-x-4">
+            {frameworks}
+          </ul>
+          <div>Others:</div>
+          <ul className="flex flex-wrap space-x-4">
+            {otherskills}
           </ul>
         </div>
       </div>
