@@ -7,7 +7,7 @@ const Header = (): JSX.Element => {
   return (
     <main className="flex w-full h-screen z-1">
       <div className="flex basis-1/2">
-        <div>
+        <div className="hover:text-sky-500 transition-colors h-fit">
           <TbHexagonLetterR size={"60px"}/>
         </div>
         <div className="flex flex-col absolute left-36 top-36">
@@ -20,8 +20,10 @@ const Header = (): JSX.Element => {
           <div className="mt-2">
             <b>Software Engineer</b>, HBSc Computer Science from University of Toronto
           </div>
-          <div className="arrow mt-32 ml-auto mr-auto">
-            <BsArrowDown size={"40px"}/>
+          <div className="animate-bounce mt-32 ml-auto mr-auto">
+            <a href="#about">
+              <BsArrowDown size={"40px"}/>
+            </a>
           </div>
         </div>
       </div>

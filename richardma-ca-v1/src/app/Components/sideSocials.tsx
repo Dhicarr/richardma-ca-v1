@@ -6,8 +6,12 @@ const SideSocials = (): JSX.Element => {
   return (
     <main className="fixed left-0 top-1/2">
       <div className="flex flex-col space-y-2 border-4 border-l-0">
-        <RiLinkedinBoxLine size={"40px"}/>
-        <LiaGithubSquare size={"40px"}/>
+        <a href="https://www.linkedin.com/in/maricha2/" className="hover:text-sky-700 transition-colors">
+          <RiLinkedinBoxLine size={"40px"}/>
+        </a>
+        <a href="https://github.com/dhicarr" className="hover:text-purple-500 transition-colors">
+          <LiaGithubSquare size={"40px"}/>
+        </a>
       </div>
     </main>
   );
