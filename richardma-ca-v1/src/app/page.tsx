@@ -2,6 +2,8 @@ import image1 from './Images/airplane-pic.png';
 import SideSocials from './Components/sideSocials';
 import "./dark_clouds.css";
 
+import { TbHexagonLetterR } from "react-icons/tb";
+
 export default function Home() {
   return (
     <main className="flex flex-col">
@@ -14,7 +16,9 @@ export default function Home() {
         </div>
         <div className="flex w-full h-screen z-1">
           <div className="flex basis-1/2">
-            main icon
+            <div>
+              <TbHexagonLetterR size={"40px"}/>
+            </div>
             <div className="flex flex-col absolute left-36 top-36">
               <div className="text-2xl">
                 Hi, my name is
