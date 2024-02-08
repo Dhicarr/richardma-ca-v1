@@ -22,8 +22,8 @@ const ProjectSection = (): JSX.Element => {
             from medical programs at top universities and institutions.
           </p>
         </div>
-        <div className="basis-2/5 h-full m-auto">
-          <img className="h-3/4 w-auto flex justify-center" src={deckerGif.src}/>
+        <div className="basis-2/5 h-full m-auto ">
+          <img className="h-3/4 w-auto flex justify-center border-4" src={deckerGif.src}/>
         </div>
       </div>
 

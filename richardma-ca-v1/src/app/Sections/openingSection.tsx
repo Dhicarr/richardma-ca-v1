@@ -4,7 +4,7 @@ import Header from "../Components/header";
 
 const OpeningSection = (): JSX.Element => {
   return (
-  <main className="w-full h-full max-w-7xl" >
+  <main className="w-full h-full max-w-7xl mx-10" >
     <DarkSky/>
     <Header/>
   </main>

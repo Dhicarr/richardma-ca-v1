@@ -8,11 +8,11 @@ const Header = (): JSX.Element => {
   return (
     <main className="flex w-full h-screen z-1 overflow-hidden">
 
-      <div className="flex basis-1/2 h-full">
+      <div className="flex basis-1/2 h-full justify-end">
         <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
           <TbHexagonLetterR size={"60px"}/>
         </div>
-        <div className="flex flex-col justify-center mt-24 ml-24 ">
+        <div className="flex flex-col justify-center mt-24">
           <div className="text-2xl ">
             <span className="fade-in-1 opacity-0">Hi</span><span className="fade-in-2 opacity-0">, my name is</span>
           </div>
