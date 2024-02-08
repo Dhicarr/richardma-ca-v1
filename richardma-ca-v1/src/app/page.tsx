@@ -7,6 +7,10 @@ import Header from "./Components/header";
 import Skill from "./Components/skill";
 
 import deckerGif from './Images/deckermed-slideshow.gif';
+import brush1 from './Images/brush-1.png'
+import { Raleway } from "next/font/google";
+
+const raleway = Raleway({ subsets: ['latin'] })
 
 export default function Home() {
   const skillsList=[
@@ -24,18 +28,22 @@ export default function Home() {
     <Skill name={skillName} />
   ))
 
+  
+
   return (
     <main className="flex flex-col">
       <SideSocials/>
       {/* first section */}
       <div className="w-full h-full" >
         <DarkSky/>
+        <span className={raleway.className}>
         <Header/>
+        </span>
       </div>
       {/* second section */}
       <div id="about" className="mt-40 px-24 ">
-        <div className="text-5xl border-b-4 w-fit">About Me</div>
-        <div className="text-xl mt-4 border-l-4 pl-4">
+        <div className="text-4xl w-fit">About Me</div>
+        <div className="text-lg mt-4 relative ">
           <p>
             As a software engineer, I am fueled by my passion for technology and my 
             love for learning and solving new challenges. I have professional experience 
@@ -48,7 +56,7 @@ export default function Home() {
       </div>
       {/* third section */}
       <div id="experience" className="mt-40 px-24">
-        <div className="text-5xl border-b-4 w-fit">Experience</div>
+        <div className="text-4xl w-fit">Experience</div>
         <div className="flex mt-4 p-4 border-corner flex-wrap">
           <div className="basis-1/2 m-auto">
             <img className="h-full w-auto flex justify-center" src={deckerGif.src}/>
@@ -73,30 +81,35 @@ export default function Home() {
         </div>
       </div>
       <div id="skill" className="mt-40 px-24">
-        <div className="text-5xl border-b-4 w-fit">Skills</div>
-        <div className="mt-4 flex flex-col space-y-4">
+        <div className="text-4xl w-fit">Skills</div>
+        <div className="mt-4 flex flex-col space-y-6">
           <div>
             <div className="text-xl">Languages:</div>
-            <ul className="flex flex-wrap space-x-4 border-r-4 pr-3 w-fit">
+            <ul className="flex flex-wrap space-x-4 border-r-4 mt-1 pr-3 w-fit border-dotted">
               {languages}
             </ul>
           </div>
           <div>
             <div className="text-xl">Frameworks:</div>
-            <ul className="flex flex-wrap space-x-4 border-r-4 pr-3 w-fit">
+            <ul className="flex flex-wrap space-x-4 border-r-4 mt-1 pr-3 w-fit border-dotted">
               {frameworks}
             </ul>
           </div>
           <div>
             <div className="text-xl">Others:</div>
-            <ul className="flex flex-wrap space-x-4 border-r-4 pr-3 w-fit">
+            <ul className="flex flex-wrap space-x-4 border-r-4 mt-1 pr-3 w-fit border-dotted">
               {otherskills}
             </ul>
           </div>
         </div>
       </div>
-      <div id="skill" className="mt-40 px-24">
+      <div id="project" className="mt-40 px-24">
         <div className="text-5xl border-b-4 w-fit">Projects</div>
+        <div>
+          x
+        </div>
+      </div>
+      <div id="footer" className="mt-40 px-24">
         <div>
           Footer
           Dark Cloud CSS Animations by Anastasia Goodwin
