@@ -23,13 +23,13 @@ const ProjectSection = (): JSX.Element => {
           </p>
         </div>
         <div className="basis-2/5 h-full m-auto ">
-          <img className="h-3/4 w-auto flex justify-center border-4" src={deckerGif.src}/>
+          <img className="h-3/4 w-auto flex justify-center border-4 border-purple-500" src={deckerGif.src}/>
         </div>
       </div>
 
       <div className="flex mt-4 p-4 flex-wrap border-corner">
         <div className="basis-2/5 h-full m-auto">
-          <img className="h-3/4 w-auto flex justify-center" src={deckerGif.src}/>
+          <img className="h-3/4 w-auto flex justify-center border-4 border-purple-500" src={deckerGif.src}/>
         </div>
         <div className="basis-3/5 p-4">
           <div className="flex justify-between">
@@ -65,7 +65,7 @@ const ProjectSection = (): JSX.Element => {
           </p>
         </div>
         <div className="basis-2/5 h-full m-auto">
-          <img className="h-3/4 w-auto flex justify-center" src={deckerGif.src}/>
+          <img className="h-3/4 w-auto flex justify-center border-4 border-purple-500" src={deckerGif.src}/>
         </div>
       </div>
     </main>
