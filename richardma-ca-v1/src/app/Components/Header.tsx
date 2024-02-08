@@ -7,12 +7,13 @@ import NavBar from "./navBar";
 const Header = (): JSX.Element => {
   return (
     <main className="flex w-full h-screen z-1 overflow-hidden">
-      <div className="flex basis-1/2">
+
+      <div className="flex basis-1/2 h-full">
         <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
           <TbHexagonLetterR size={"60px"}/>
         </div>
-        <div className="flex flex-col mt-40 ml-24">
-          <div className="text-2xl">
+        <div className="flex flex-col justify-center mt-24 ml-24 ">
+          <div className="text-2xl ">
             <span className="fade-in-1 opacity-0">Hi</span><span className="fade-in-2 opacity-0">, my name is</span>
           </div>
           <div className="fade-in-3 opacity-0 text-8xl border-b-4 mt-2">
@@ -32,10 +33,12 @@ const Header = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="fade-in-right opacity-0 flex flex-col justify-center items-center basis-1/2 w-1/3">
+
+      <div className="fade-in-right opacity-0 h-full flex flex-col justify-center items-center basis-1/2 w-1/3">
         <NavBar/>
-        <img className="white-shadow h-2/3 border-4" src={image1.src} />
+        <img className="white-shadow h-96 w-auto border-4" src={image1.src} />
       </div>
+
     </main>
   );
 }

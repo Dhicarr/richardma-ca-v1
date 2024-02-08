@@ -8,13 +8,15 @@ import ProjectSection from './Sections/projectSection';
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col items-center">
       <SideSocials/>
       <OpeningSection/>
-      <AboutSection/>
-      <ExperienceSection/>
-      <SkillsSection/>
-      <ProjectSection/>
+      <span className="max-w-7xl">
+        <AboutSection/>
+        <ExperienceSection/>
+        <SkillsSection/>
+        <ProjectSection/>
+      </span>
       <Footer/>
     </main>
   );
