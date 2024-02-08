@@ -108,7 +108,7 @@ export default function Home() {
         </div>
       </div>
       <div id="project" className="mt-40 px-40">
-        <div className="text-5xl border-b-4 w-fit">Projects</div>
+      <div className="text-4xl w-fit">Projects</div>
 
         <div className="flex mt-4 p-4 flex-wrap border-corner">
           <div className="basis-3/5 p-4">
