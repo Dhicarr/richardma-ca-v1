@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import "../dark_clouds.css";
+import "../Css/dark_clouds.css";
 
 const DarkSky = (): JSX.Element => {
   return (

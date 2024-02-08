@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Source_Sans_3, Raleway } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
+import "./Css/animation.css";
 
-
-const ss3 = Source_Sans_3({ subsets: ['latin'] })
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {

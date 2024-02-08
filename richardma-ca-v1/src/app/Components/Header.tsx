@@ -3,7 +3,6 @@ import { TbHexagonLetterR } from "react-icons/tb";
 import { BsArrowDown } from "react-icons/bs";
 import image1 from '../Images/airplane-pic.png';
 import NavBar from "./navBar";
-import "../animation.css";
 
 const Header = (): JSX.Element => {
   return (
