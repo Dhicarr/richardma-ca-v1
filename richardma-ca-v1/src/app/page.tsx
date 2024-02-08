@@ -173,11 +173,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="footer" className="mt-40">
-        <div>
-          Footer
-          Dark Cloud CSS Animations by Anastasia Goodwin
-        </div>
+      <div id="footer" className="mt-40 bg-zinc-800 text-center">
+        <p>
+          Designed and coded by Richard Ma
+        </p>
       </div>
     </main>
   );
