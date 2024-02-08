@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import deckerGif from '../Images/deckermed-slideshow.gif';
 
-const ThirdSection = (): JSX.Element => {
+const ExperienceSection = (): JSX.Element => {
   return (
   <main id="experience" className="mt-40 px-40">
     <div className="text-4xl w-fit">Experience</div>
@@ -29,4 +29,4 @@ const ThirdSection = (): JSX.Element => {
   );
 }
 
-export default ThirdSection
+export default ExperienceSection

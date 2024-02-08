@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 
-const SecondSection = (): JSX.Element => {
+const AboutSection = (): JSX.Element => {
   return (
     <main id="about" className="mt-20 pt-20 px-40">
       <div className="text-4xl w-fit">About Me</div>
@@ -24,4 +24,4 @@ const SecondSection = (): JSX.Element => {
   );
 }
 
-export default SecondSection
+export default AboutSection

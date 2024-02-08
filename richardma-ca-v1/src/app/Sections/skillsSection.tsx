@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
-import Skill from "./skill";
+import Skill from "../Components/skill";
 
-const FourthSection = (): JSX.Element => {
+const SkillsSection = (): JSX.Element => {
   const skillsList=[
     ['Typescript', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Python', 'Java', 'C', 'SQL', 'Bash', 'LaTeX'],
     ['React.js','Next.js','Redux','Tailwind','Material-UI', 'Bootstrap','SaSS','PostgresQL','MongoDB'],
@@ -43,4 +43,4 @@ const FourthSection = (): JSX.Element => {
   );
 }
 
-export default FourthSection
+export default SkillsSection

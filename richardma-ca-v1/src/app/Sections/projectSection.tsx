@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import deckerGif from './Images/deckermed-slideshow.gif';
 
-const FifthSection = (): JSX.Element => {
+const ProjectSection = (): JSX.Element => {
   return (
     <main id="project" className="mt-40 px-40">
       <div className="text-4xl w-fit">Projects</div>
@@ -72,4 +72,4 @@ const FifthSection = (): JSX.Element => {
   );
 }
 
-export default FifthSection
+export default ProjectSection

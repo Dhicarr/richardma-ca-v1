@@ -1,18 +1,18 @@
 import SideSocials from './Components/sideSocials';
-import FirstSection from "./Components/firstSection";
-import SecondSection from "./Components/secondSection";
-import ThirdSection from "./Components/thirdSection";
-import FourthSection from "./Components/fourthSection";
-import Footer from './Components/footer';
+import OpeningSection from "./Sections/openingSection";
+import AboutSection from "./Sections/aboutSection";
+import ExperienceSection from "./Sections/experienceSection";
+import SkillsSection from "./Sections/skillsSection";
+import Footer from './Sections/footer';
 
 export default function Home() {
   return (
     <main className="flex flex-col">
       <SideSocials/>
-      <FirstSection/>
-      <SecondSection/>
-      <ThirdSection/>
-      <FourthSection/>
+      <OpeningSection/>
+      <AboutSection/>
+      <ExperienceSection/>
+      <SkillsSection/>
       <Footer/>
     </main>
   );
