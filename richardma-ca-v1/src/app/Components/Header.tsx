@@ -9,7 +9,7 @@ const Header = (): JSX.Element => {
   return (
     <main className="flex w-full h-screen z-1 overflow-hidden">
       <div className="flex basis-1/2">
-        <div className="hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
+        <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
           <TbHexagonLetterR size={"60px"}/>
         </div>
         <div className="flex flex-col mt-40 ml-24">
@@ -33,7 +33,7 @@ const Header = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className="fade-in-image opacity-0 flex flex-col justify-center items-center basis-1/2 w-1/3">
+      <div className="fade-in-right opacity-0 flex flex-col justify-center items-center basis-1/2 w-1/3">
         <NavBar/>
         <img className="white-shadow h-2/3 border-4" src={image1.src} />
       </div>
