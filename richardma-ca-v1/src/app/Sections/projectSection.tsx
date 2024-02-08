@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import deckerGif from './Images/deckermed-slideshow.gif';
+import deckerGif from '../Images/deckermed-slideshow.gif';
 
 const ProjectSection = (): JSX.Element => {
   return (
