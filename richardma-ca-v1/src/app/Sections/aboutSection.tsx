@@ -18,7 +18,7 @@ const AboutSection = ({sectionClass}:ComponentProps): JSX.Element => {
           and I approach each challenge with enthusiasm and curiosity.
         </p>
       </div>
-      <div className="mt-12 text-center">
+      <div className="mt-12 text-center text-purple-500 italic">
         <p>
           "A well-written piece of code is not just a program; 
           it's a work of art that reflects creativity and craftsmanship."

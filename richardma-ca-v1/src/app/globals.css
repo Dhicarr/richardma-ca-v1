@@ -5,16 +5,16 @@
 :root {
   --foreground-rgb: 240, 240, 240;
   --background-rgb-1: 25,25,25;
-  --background-rgb-2: 40,40,40;
-  --background-rgb-3: 60,60,60;
+  --background-rgb-2: 30,30,30;
+  --background-rgb-3: 40,40,40;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 240, 240, 240;
     --background-rgb-1: 25,25,25;
-    --background-rgb-2: 40,40,40;
-    --background-rgb-3: 60,60,60;
+    --background-rgb-2: 30,30,30;
+    --background-rgb-3: 40,40,40;
   }
 }
 html{
