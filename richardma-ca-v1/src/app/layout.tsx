@@ -8,7 +8,7 @@ const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Richard Ma",
-  description: "Generated with Next.JS",
+  description: "Personal Website",
 };
 
 export default function RootLayout({
