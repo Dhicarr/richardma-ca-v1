@@ -27,19 +27,19 @@ const SkillsSection = ({sectionClass}:ComponentProps): JSX.Element => {
       <div className="mt-4 flex flex-col space-y-6">
         <div>
           <div className="text-xl">Languages:</div>
-          <ul className="flex flex-wrap space-x-4 border-r-4 mt-1 pr-3 w-fit border-dotted">
+          <ul className="flex flex-wrap border-l-4 mt-1 pr-3 w-fit border-dotted">
             {languages}
           </ul>
         </div>
         <div>
           <div className="text-xl">Frameworks:</div>
-          <ul className="flex flex-wrap space-x-4 border-r-4 mt-1 pr-3 w-fit border-dotted">
+          <ul className="flex flex-wrap border-l-4 mt-1 pr-3 w-fit border-dotted">
             {frameworks}
           </ul>
         </div>
         <div>
           <div className="text-xl">Others:</div>
-          <ul className="flex flex-wrap space-x-4 border-r-4 mt-1 pr-3 w-fit border-dotted">
+          <ul className="flex flex-wrap border-l-4 mt-1 pr-3 w-fit border-dotted">
             {otherskills}
           </ul>
         </div>
