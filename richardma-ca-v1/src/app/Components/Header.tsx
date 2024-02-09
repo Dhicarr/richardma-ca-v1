@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { TbHexagonLetterR } from "react-icons/tb";
+import { TbSquareLetterR } from "react-icons/tb";
 import { BsArrowDown } from "react-icons/bs";
 import image1 from '../Images/airplane-pic.png';
 import NavBar from "./navBar";
@@ -9,7 +9,7 @@ const Header = (): JSX.Element => {
     <main className="flex w-full z-1 overflow-hidden
     flex-col-reverse justify-center lg:flex-row lg:justify-normal lg:h-screen">
       <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
-        <TbHexagonLetterR size={"60px"}/>
+        <TbSquareLetterR size={"60px"}/>
       </div>
       <div className="flex basis-1/2 h-full justify-center">
         <div className="flex flex-col justify-center mt-24 lg:ml-10">
