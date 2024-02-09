@@ -12,13 +12,13 @@ const SkillsSection = ({sectionClass}:ComponentProps): JSX.Element => {
     ['AWS RDS', 'AWS Amplify', 'Git', 'VS Code', 'Unix']
   ]
   const languages = skillsList[0].map((skillName, _index) => (
-    <Skill name={skillName} index={_index+1000} />
+    <Skill name={skillName} key={_index+1000} index={_index+1100} />
   ))
   const frameworks = skillsList[1].map((skillName, _index) => (
-    <Skill name={skillName} index={_index+2000} />
+    <Skill name={skillName} key={_index+2000} index={_index+2100} />
   ))
   const otherskills = skillsList[2].map((skillName, _index) => (
-    <Skill name={skillName} index={_index+3000} />
+    <Skill name={skillName} key={_index+3000} index={_index+3100} />
   ))
   
   return (

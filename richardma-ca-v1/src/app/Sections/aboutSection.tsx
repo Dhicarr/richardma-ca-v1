@@ -21,7 +21,7 @@ const AboutSection = ({sectionClass}:ComponentProps): JSX.Element => {
       <div className="mt-12 text-center text-purple-500 italic">
         <p>
         &ldquo;A well-written piece of code is not just a program; 
-          it's a work of art that reflects creativity and craftsmanship.&ldquo;
+          it&apos;s a work of art that reflects creativity and craftsmanship.&ldquo;
         </p>
       </div>
     </main>
