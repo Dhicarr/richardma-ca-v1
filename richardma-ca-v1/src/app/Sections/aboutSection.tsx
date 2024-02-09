@@ -20,8 +20,8 @@ const AboutSection = ({sectionClass}:ComponentProps): JSX.Element => {
       </div>
       <div className="mt-12 text-center text-purple-500 italic">
         <p>
-          "A well-written piece of code is not just a program; 
-          it's a work of art that reflects creativity and craftsmanship."
+        &ldquo;A well-written piece of code is not just a program; 
+          it's a work of art that reflects creativity and craftsmanship.&ldquo;
         </p>
       </div>
     </main>
