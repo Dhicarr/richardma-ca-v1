@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import "./Css/animation.css";
-import GoogleAnalytics from "./GoogleAnalytics";
+import GoogleAnalytics from "./googleAnalytics";
 
 const raleway = Raleway({ subsets: ['latin'] })
 
