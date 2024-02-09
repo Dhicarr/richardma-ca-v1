@@ -3,6 +3,7 @@ import { TbSquareLetterR } from "react-icons/tb";
 import { BsArrowDown } from "react-icons/bs";
 import image1 from '../Images/airplane-pic.png';
 import NavBar from "./navBar";
+import JobTitle from "./jobTitle";
 
 const Header = (): JSX.Element => {
   return (
@@ -22,8 +23,8 @@ const Header = (): JSX.Element => {
             </h1>
           </div>
           <div className="fade-in-4 opacity-0 mt-2">
-            HBSc Computer Science • University of Toronto<br/> 
-            <b>Software Engineer</b>
+            <h3>HBSc Computer Science • University of Toronto</h3>
+            <JobTitle/>
           </div>
           <div className="fade-in-5 opacity-0 mt-20 ml-auto mr-auto">
             <div className="animate-bounce">
