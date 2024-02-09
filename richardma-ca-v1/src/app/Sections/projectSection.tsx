@@ -1,9 +1,13 @@
 import React, { ReactNode } from "react";
 import deckerGif from '../Images/deckermed-slideshow.gif';
 
-const ProjectSection = (): JSX.Element => {
+interface ComponentProps {
+  sectionClass: string;
+}
+
+const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
-    <main id="project" className="mt-40 px-40">
+    <main id="project" className={sectionClass}>
       <div className="text-4xl w-fit">Projects</div>
 
       <div className="flex mt-4 p-4 flex-wrap border-corner">

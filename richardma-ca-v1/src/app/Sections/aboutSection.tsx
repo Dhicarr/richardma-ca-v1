@@ -1,8 +1,12 @@
 import React, { ReactNode } from "react";
 
-const AboutSection = (): JSX.Element => {
+interface ComponentProps {
+  sectionClass: string;
+}
+
+const AboutSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
-    <main id="about" className="mt-20 pt-20 px-40">
+    <main id="about" className={sectionClass}>
       <div className="text-4xl w-fit">About Me</div>
       <div className="text-lg mt-4 relative ">
         <p>

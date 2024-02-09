@@ -1,6 +1,10 @@
 import React, { ReactNode } from "react";
 
-const AppButton = (): JSX.Element => {
+interface ComponentProps {
+  name: String;
+}
+
+const Component = ({name}:ComponentProps): JSX.Element => {
   return (
     <main className="">
       
@@ -8,4 +12,4 @@ const AppButton = (): JSX.Element => {
   );
 }
 
-export default AppButton
+export default Component

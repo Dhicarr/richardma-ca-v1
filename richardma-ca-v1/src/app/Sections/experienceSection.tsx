@@ -1,9 +1,13 @@
 import React, { ReactNode } from "react";
 import deckerGif from '../Images/deckermed-slideshow.gif';
 
-const ExperienceSection = (): JSX.Element => {
+interface ComponentProps {
+  sectionClass: string;
+}
+
+const ExperienceSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
-  <main id="experience" className="mt-40 px-40">
+  <main id="experience" className={sectionClass}>
     <div className="text-4xl w-fit">Experience</div>
     <div className="flex mt-4 p-4 flex-wrap border-corner">
       <div className="basis-2/5 h-full m-auto">
