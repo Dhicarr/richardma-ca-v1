@@ -4,11 +4,14 @@ import { BsArrowDown } from "react-icons/bs";
 import image1 from '../Images/airplane-pic.png';
 import NavBar from "./navBar";
 import JobTitle from "./jobTitle";
+import DarkSky from "../Components/darkSky";
 
 const Header = (): JSX.Element => {
   return (
     <main className="flex w-full z-1 overflow-hidden
-    flex-col-reverse justify-center lg:flex-row lg:justify-normal lg:h-screen">
+    flex-col-reverse justify-center lg:flex-row lg:justify-normal lg:h-screen relative">
+      <DarkSky/>
+
       <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
         <TbSquareLetterR size={"60px"}/>
       </div>
