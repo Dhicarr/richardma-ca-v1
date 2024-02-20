@@ -8,17 +8,15 @@ import DarkSky from "../Components/darkSky";
 
 const Header = (): JSX.Element => {
   return (
-    <main className="box relative w-full z-1 overflow-hidden justify-center mb-4 
-     lg:justify-normal min-h-screen lg:mb-0">
+    <main className="box relative w-full z-1 overflow-hidden justify-center mb-4 p-12 
+     lg:justify-normal min-h-screen lg:mb-0 lg:p-0">
       <DarkSky/>
-
-      <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
+      {/* <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
         <TbSquareLetterR size={"60px"}/>
-      </div>
-
+      </div> */}
       <div className="flex flex-col-reverse lg:flex-row mt-10">
         <div className="flex basis-1/2 h-full justify-center">
-          <div className="flex flex-col justify-center mt-24 lg:ml-10">
+          <div className="flex flex-col justify-center md:mt-24 lg:ml-10">
             <div className="text-3xl ">
               <span className="fade-in-1 opacity-0">Hi</span><span className="fade-in-2 opacity-0">, my name is</span>
             </div>
@@ -41,7 +39,7 @@ const Header = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="flex basis-1/2 flex-col justify-center fade-in-right opacity-0 h-full items-center">
+        <div className="hidden md:flex basis-1/2 flex-col justify-center fade-in-right opacity-0 h-full items-center">
           <NavBar/>
           <img className="white-shadow h-80 lg:h-80 xl:h-96 w-auto border-4" src={image1.src} />
         </div>

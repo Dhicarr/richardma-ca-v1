@@ -13,7 +13,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
       <div className="text-4xl">Projects</div>
 
       <div className="flex flex-col justify-center align-middle content-center w-full p-4">
-        <div className="flex mt-4 p-4 flex-wrap border-corner lg:w-full">
+        <div className="flex mt-4 p-4 flex-wrap border-corner">
           <div className="md:basis-3/5 md:p-4">
             <div className="font-bold">Placeholder</div>
             <div className="flex justify-between">
@@ -26,7 +26,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
             ea commodo consequat.
             </p>
           </div>
-          <div className="md:basis-3/5 h-full m-auto ">
+          <div className="md:basis-2/5 h-full m-auto ">
             <Image 
               className="flex justify-center border-4 border-purple-500"
               width={500}

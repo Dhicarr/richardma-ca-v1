@@ -4,7 +4,7 @@ import { LiaGithubSquare } from "react-icons/lia";
 
 const SideSocials = (): JSX.Element => {
   return (
-    <main className="fade-in-left opacity-0 fixed left-0 top-1/2 z-50">
+    <main className="hidden md:block fade-in-left opacity-0 fixed left-0 top-1/2 z-50">
       <div className="flex flex-col space-y-2 border-4 border-l-0">
         <a href="https://www.linkedin.com/in/maricha2/" className="hover:text-sky-700 transition-colors">
           <RiLinkedinBoxLine size={"40px"}/>
