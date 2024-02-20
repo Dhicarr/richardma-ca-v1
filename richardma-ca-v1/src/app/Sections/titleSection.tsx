@@ -11,10 +11,7 @@ const TitleSection = (): JSX.Element => {
     <main className="box relative w-full z-1 overflow-hidden justify-center mb-4 p-12 text-center md:text-left
      lg:justify-normal min-h-screen lg:mb-0 lg:p-0">
       <DarkSky/>
-      {/* <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
-        <TbSquareLetterR size={"60px"}/>
-      </div> */}
-      <div className="flex flex-col-reverse lg:flex-row mt-10">
+      <div className="flex flex-col-reverse lg:flex-row mt-24 md:mt-10">
         <div className="flex basis-1/2 h-full justify-center">
           <div className="flex flex-col justify-center md:mt-24 lg:ml-10">
             <div className="text-xl md:text-3xl ">
