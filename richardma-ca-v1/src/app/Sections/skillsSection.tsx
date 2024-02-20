@@ -20,11 +20,12 @@ const SkillsSection = ({sectionClass}:ComponentProps): JSX.Element => {
   const otherskills = skillsList[2].map((skillName, _index) => (
     <Skill name={skillName} key={_index+3000} index={_index+3100} />
   ))
-  const skillsClass="flex flex-wrap border-l-4 mt-1 pr-3 w-fit border-dotted justify-center md:justify-normal"
+  const skillsClass="flex flex-wrap mt-1 pr-3 w-fit justify-center md:justify-normal"
+
   return (
     <main id="skill" className={sectionClass}>
-      <div className="text-4xl">Skills</div>
-      <div className="mt-4 flex flex-col space-y-6">
+      <div className="text-2xl md:text-4xl">Skills</div>
+      <div className="mt-4 flex flex-col space-y-6 border-corner p-4">
         <div>
           <div className="text-xl">Languages:</div>
           <ul className={skillsClass}>

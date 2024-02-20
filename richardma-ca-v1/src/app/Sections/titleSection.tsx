@@ -6,9 +6,9 @@ import NavBar from "../Components/navBar";
 import JobTitle from "../Components/jobTitle";
 import DarkSky from "../Components/darkSky";
 
-const Header = (): JSX.Element => {
+const TitleSection = (): JSX.Element => {
   return (
-    <main className="box relative w-full z-1 overflow-hidden justify-center mb-4 p-12 
+    <main className="box relative w-full z-1 overflow-hidden justify-center mb-4 p-12 text-center md:text-left
      lg:justify-normal min-h-screen lg:mb-0 lg:p-0">
       <DarkSky/>
       {/* <div className="fade-in-5 opacity-0 hover:text-purple-500 transition-colors h-fit absolute top-0 left-0">
@@ -17,11 +17,11 @@ const Header = (): JSX.Element => {
       <div className="flex flex-col-reverse lg:flex-row mt-10">
         <div className="flex basis-1/2 h-full justify-center">
           <div className="flex flex-col justify-center md:mt-24 lg:ml-10">
-            <div className="text-3xl ">
+            <div className="text-xl md:text-3xl ">
               <span className="fade-in-1 opacity-0">Hi</span><span className="fade-in-2 opacity-0">, my name is</span>
             </div>
-            <div className="fade-in-3 opacity-0 text-7xl xl:text-7xl mt-2">
-              <h1 className="w-fit border-b-4 border-purple-500">
+            <div className="fade-in-3 opacity-0 text-4xl md:text-7xl xl:text-7xl mt-2">
+              <h1 className="w-full border-b-4 border-purple-500">
                 R<span className="neonText flickerText">i</span>chard Ma
               </h1>
             </div>
@@ -48,4 +48,4 @@ const Header = (): JSX.Element => {
   );
 }
 
-export default Header
+export default TitleSection

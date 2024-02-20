@@ -8,9 +8,9 @@ interface ComponentProps {
 const ExperienceSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
   <main id="experience" className={sectionClass}>
-    <div className="text-4xl">Experience</div>
+    <div className="text-2xl md:text-4xl">Experience</div>
     <div className="flex mt-4 p-4 flex-wrap border-corner">
-      <div className="basis-2/5 h-full m-auto">
+      <div className="md:basis-2/5 h-full m-auto">
         <img className="h-3/4 w-auto flex justify-center border-4 border-purple-500" src={deckerGif.src}/>
       </div>
       <div className="md:basis-3/5 md:p-4">
