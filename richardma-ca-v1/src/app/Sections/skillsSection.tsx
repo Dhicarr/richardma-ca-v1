@@ -23,7 +23,7 @@ const SkillsSection = ({sectionClass}:ComponentProps): JSX.Element => {
   
   return (
     <main id="skill" className={sectionClass}>
-      <div className="text-4xl w-fit">Skills</div>
+      <div className="text-4xl">Skills</div>
       <div className="mt-4 flex flex-col space-y-6">
         <div>
           <div className="text-xl">Languages:</div>

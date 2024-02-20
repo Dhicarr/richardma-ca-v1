@@ -5,14 +5,15 @@ import ExperienceSection from "./Sections/experienceSection";
 import SkillsSection from "./Sections/skillsSection";
 import Footer from './Sections/footer';
 import ProjectSection from './Sections/projectSection';
+import Header from './Sections/header';
 
 export default function Home() {
-  const sectionClass="mt-40 px-10 md:px-20 lg:px-40 max-w-7xl"
+  const sectionClass="mt-40 px-5 overflow-x-hidden md:px-20 lg:px-40 lg:max-w-7xl text-center md:text-left"
   
   return (
-    <main className="flex flex-col items-center max-w-none mx-20">
+    <main className="flex flex-col items-center max-w-none overflow-x-hidden">
       <SideSocials/>
-      <OpeningSection/>
+      <Header/>
       <AboutSection sectionClass={sectionClass}/>
       <ExperienceSection sectionClass={sectionClass}/>
       <SkillsSection sectionClass={sectionClass}/>

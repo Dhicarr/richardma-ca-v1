@@ -7,7 +7,7 @@ interface ComponentProps {
 const AboutSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
     <main id="about" className={sectionClass}>
-      <div className="text-4xl w-fit">About Me</div>
+      <div className="text-4xl">About Me</div>
       <div className="text-lg mt-4 relative ">
         <p>
           As a software engineer, I am fueled by my passion for technology and my 
