@@ -8,8 +8,8 @@ const AboutSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
     <main id="about" className={sectionClass}>
       <div className="text-3xl md:text-4xl">About Me</div>
-      <div className="border-corner p-4 mt-4">
-        <div className="md:text-lg mt-4 relative">
+      <div className="border-corner p-8 mt-4">
+        <div className="md:text-lg relative">
           <p>
             As a software engineer, I am fueled by my passion for technology and my 
             love for learning and solving new challenges. I have professional experience 
