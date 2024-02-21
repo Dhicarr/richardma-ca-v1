@@ -7,7 +7,7 @@ interface SkillProps {
 
 const Skill = ({name, index}:SkillProps): JSX.Element => {
   return (
-    <li className="p-2 text-slate-100 bg-purple-800 m-2" key={index}>
+    <li className="p-2 text-slate-100 bg-zinc-800 m-2" key={index}>
       {name}
     </li>
   );
