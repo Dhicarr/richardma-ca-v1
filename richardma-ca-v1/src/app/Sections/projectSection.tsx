@@ -10,7 +10,7 @@ interface ComponentProps {
 const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
     <main id="project" className={sectionClass+" px-0"}>
-      <div className="text-3xl md:text-4xl">Projects</div>
+      <div className="text-3xl font-semibold md:font-normal md:text-4xl">Projects</div>
 
       <div className="flex flex-col justify-center align-middle content-center w-full">
         <div className="flex mt-4 p-2 flex-wrap border-corner">
