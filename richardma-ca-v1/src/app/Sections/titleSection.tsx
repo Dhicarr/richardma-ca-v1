@@ -13,7 +13,7 @@ const TitleSection = (): JSX.Element => {
       <DarkSky/>
       <div className="flex flex-col-reverse w-full lg:flex-row mt-0 md:mt-0 lg:mt-0">
         <div className="flex lg:basis-1/2 h-full justify-center">
-          <div className="flex flex-col justify-start md:justify-center lg:ml-10">
+          <div className="flex flex-col justify-center lg:ml-10">
             <span className="border-4 py-12 px-2 md:border-none md:p-0">
             <div className="text-xl md:text-3xl ">
               <span className="fade-in-1 opacity-0">Hi</span><span className="fade-in-2 opacity-0">, my name is</span>
