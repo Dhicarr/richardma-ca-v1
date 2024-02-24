@@ -113,3 +113,41 @@
 .flickerText {
   animation: flicker 4s infinite alternate;     
 }
+
+
+.text-animation {
+  background-image: linear-gradient(
+    to right,
+    rgb(168 85 247),
+    rgb(168 85 247) 50%,
+    #ffffff 50%
+  );
+  width:fit-content;
+  background-size: 200% 100%;
+  background-position: -100%;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.text-animation:before{
+  content: '';
+  background: rgb(168 85 247);
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.text-animation:hover {
+ background-position: 0;
+}
+
+.text-animation:hover::before{
+  width: 100%;
+}

@@ -4,6 +4,7 @@ import copit from '../Images/copit.gif';
 import triviagame from '../Images/triviagame.gif'
 import { url } from "inspector";
 import Image from "next/image";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface ComponentProps {
   sectionClass: string;
@@ -18,7 +19,10 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
 
         <div className="flex flex-col-reverse md:flex-row mt-4 p-2 flex-wrap border-corner">
           <div className="md:basis-3/5 md:p-4 mb-4 lg:mb-0">
-            <div className="font-bold">Trivia Game</div>
+            <a className="flex gap-2" href="https://main.d38xdqyw5jo4so.amplifyapp.com/">
+              <div className="text-animation font-bold">Trivia Game</div>
+              <FaExternalLinkAlt />
+            </a>
             <div className="flex justify-between">
               <div className="text-purple-500 w-full">
                 React.js, HTML, CSS, Python (Django), 
@@ -55,7 +59,10 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
             />
           </div>
           <div className="md:basis-3/5 md:p-4 mb-4 lg:mb-0">
-            <div className="font-bold">Fake E-Commerce Store</div>
+            <a className="flex gap-2" href="https://master.dj8auwcidjojx.amplifyapp.com/">
+              <div className="text-animation font-bold">Fake E-Commerce Store</div>
+              <FaExternalLinkAlt />
+            </a>
             <div className="flex justify-between">
               <div className="text-purple-500 w-full">
                 React.js, HTML, CSS
@@ -73,7 +80,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
         
         <div className="flex flex-col-reverse md:flex-row mt-4 p-2 flex-wrap border-corner">
           <div className="md:basis-3/5 md:p-4 mb-4 lg:mb-0">
-            <div className="font-bold">CopIt Android App</div>
+            <div className="font-bold flex gap-2">CopIt Android App</div>
             <div className="flex justify-between">
               <div className="text-purple-500 w-full">
                 Android Studios, Java
