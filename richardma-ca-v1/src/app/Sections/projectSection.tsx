@@ -16,7 +16,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
 
       <div className="flex flex-col justify-center align-middle content-center w-full">
 
-        <div className="flex mt-4 p-2 flex-wrap border-corner">
+        <div className="flex flex-col-reverse md:flex-row mt-4 p-2 flex-wrap border-corner">
           <div className="md:basis-3/5 md:p-4 mb-4 lg:mb-0">
             <div className="font-bold">Trivia Game</div>
             <div className="flex justify-between">
@@ -44,7 +44,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
           </div>
         </div>
 
-        <div className="flex mt-4 p-2 flex-wrap border-corner">
+        <div className="flex flex-col md:flex-row mt-4 p-2 flex-wrap border-corner">
           <div className="md:basis-2/5 h-full m-auto ">
             <Image 
               className="flex justify-center border-4 border-purple-500"
@@ -71,7 +71,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
           </div>
         </div>
         
-        <div className="flex mt-4 p-2 flex-wrap border-corner">
+        <div className="flex flex-col-reverse md:flex-row mt-4 p-2 flex-wrap border-corner">
           <div className="md:basis-3/5 md:p-4 mb-4 lg:mb-0">
             <div className="font-bold">CopIt Android App</div>
             <div className="flex justify-between">
