@@ -17,9 +17,9 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
 
       <div className="flex flex-col justify-center align-middle content-center w-full">
 
-        <div className="flex flex-col-reverse md:flex-row mt-4 p-2 flex-wrap border-corner">
-          <div className="md:basis-3/5 md:p-4 mb-4 lg:mb-0">
-            <a className="flex gap-2" href="https://main.d38xdqyw5jo4so.amplifyapp.com/">
+        <div className="flex flex-col-reverse gap-4 md:gap-0 md:flex-row mt-4 p-2 flex-wrap border-corner">
+          <div className="lg:basis-3/5 md:p-4 mb-4 lg:mb-0">
+            <a className="flex gap-2 justify-center md:justify-normal" href="https://main.d38xdqyw5jo4so.amplifyapp.com/">
               <div className="text-animation font-bold">Trivia Game</div>
               <FaExternalLinkAlt />
             </a>
@@ -37,7 +37,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
 
             </p>
           </div>
-          <div className="md:basis-2/5 h-full m-auto ">
+          <div className="lg:basis-2/5 h-full m-auto ">
             <Image 
               className="flex justify-center border-4 border-purple-500"
               width={500}
@@ -48,8 +48,8 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row mt-4 p-2 flex-wrap border-corner">
-          <div className="md:basis-2/5 h-full m-auto ">
+        <div className="flex flex-col gap-4 md:gap-0 md:flex-row mt-4 p-2 flex-wrap border-corner">
+          <div className="lg:basis-2/5 h-full m-auto ">
             <Image 
               className="flex justify-center border-4 border-purple-500"
               width={500}
@@ -58,8 +58,8 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
               src={fakeStore.src}
             />
           </div>
-          <div className="md:basis-3/5 md:p-4 mb-4 lg:mb-0">
-            <a className="flex gap-2" href="https://master.dj8auwcidjojx.amplifyapp.com/">
+          <div className="lg:basis-3/5 md:p-4 mb-4 lg:mb-0">
+            <a className="flex gap-2 justify-center md:justify-normal" href="https://master.dj8auwcidjojx.amplifyapp.com/">
               <div className="text-animation font-bold">Fake E-Commerce Store</div>
               <FaExternalLinkAlt />
             </a>
@@ -78,9 +78,9 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
           </div>
         </div>
         
-        <div className="flex flex-col-reverse md:flex-row mt-4 p-2 flex-wrap border-corner">
-          <div className="md:basis-3/5 md:p-4 mb-4 lg:mb-0">
-            <div className="font-bold flex gap-2">CopIt Android App</div>
+        <div className="flex flex-col-reverse gap-4 md:gap-0 md:flex-row mt-4 p-2 flex-wrap border-corner">
+          <div className="lg:basis-3/5 md:p-4 mb-4 lg:mb-0">
+            <div className="font-bold flex gap-2 justify-center md:justify-normal">CopIt Android App</div>
             <div className="flex justify-between">
               <div className="text-purple-500 w-full">
                 Android Studios, Java
@@ -92,7 +92,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
 
             </p>
           </div>
-          <div className="md:basis-2/5 h-full m-auto ">
+          <div className="lg:basis-2/5 h-full m-auto ">
             <Image 
               className="flex justify-center border-4 border-purple-500"
               width={500}
