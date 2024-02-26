@@ -9,7 +9,9 @@ interface ComponentProps {
 const ExperienceSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
   <main id="experience" className={sectionClass}>
-    <div className="text-3xl font-semibold md:font-normal md:text-4xl">Experience</div>
+    <div className="text-3xl font-semibold md:font-normal md:weight md:text-4xl ">
+      <span className="title-shadow w-fit relative">Experience <span className="text-line"/></span>
+    </div>
     <div className="flex mt-4 p-2 flex-wrap border-corner">
       <div className="md:basis-2/5 h-full m-auto ">
         <Image 
@@ -25,8 +27,8 @@ const ExperienceSection = ({sectionClass}:ComponentProps): JSX.Element => {
           <div className="font-bold">Intermediate Front-End Developer</div>
           <div>Jun 2022-May 2023</div>
         </div>
-        <div className="md:flex justify-between flex-col">
-          <div className="text-zinc-400 hidden lg:flex-row">Junior Full-Stack Developer</div>
+        <div className="md:flex justify-between">
+          <div className="text-zinc-400 lg:flex-row">Junior Full-Stack Developer</div>
           <div className="italic">DeckerMed</div>
         </div>
         <p className="mt-4">

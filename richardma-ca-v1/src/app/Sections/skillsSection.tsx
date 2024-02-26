@@ -24,7 +24,9 @@ const SkillsSection = ({sectionClass}:ComponentProps): JSX.Element => {
 
   return (
     <main id="skill" className={sectionClass}>
-      <div className="text-3xl font-semibold md:font-normal md:text-4xl">Skills</div>
+      <div className="text-3xl font-semibold md:font-normal md:weight md:text-4xl ">
+        <span className="title-shadow w-fit relative">Skills <span className="text-line hidden md:block"/></span>
+      </div>
       <div className="mt-4 flex flex-col space-y-6 border-corner p-4">
         <div>
           <div className="text-xl">Languages:</div>

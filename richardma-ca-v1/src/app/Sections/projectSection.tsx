@@ -13,8 +13,9 @@ interface ComponentProps {
 const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
   return (
     <main id="project" className={sectionClass+" px-0"}>
-      <div className="text-3xl font-semibold md:font-normal md:text-4xl">Projects</div>
-
+      <div className="text-3xl font-semibold md:font-normal md:weight md:text-4xl ">
+        <span className="title-shadow w-fit relative">Projects <span className="text-line"/></span>
+      </div>
       <div className="flex flex-col justify-center align-middle content-center w-full">
 
         <div className="flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row mt-4 px-2 py-4 flex-wrap border-corner">
@@ -30,10 +31,8 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
               </div>
             </div>
             <p className="mt-4">
-            • Stylized full-stack web application that utilizes open API to generate a new set of random questions per play.<br/>
-            • Features PostgreSQL database-driven leader board system that sorts by descending point value per category.<br/>
-            • Deployed React website using AWS Amplify, Django server using AWS Lambda, and Postgresql database using
-            AWS RDS.
+            Stylized full-stack web application that utilizes open API to generate a new set of random questions per play.
+            Features PostgreSQL database-driven leaderboard, and deployed using AWS.
 
             </p>
           </div>
@@ -69,10 +68,8 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
               </div>
             </div>
             <p className="mt-4">
-            • Stylized full-stack web application that utilizes open API to generate a new set of random questions per play.<br/>
-            • Features PostgreSQL database-driven leader board system that sorts by descending point value per category.<br/>
-            • Deployed React website using AWS Amplify, Django server using AWS Lambda, and Postgresql database using
-            AWS RDS.
+            Front-end implementation of mock e-commerce store which uses mobile-first design, pop-ups, and cookies.
+            Dynamically generates shop items through pre-generated JSON data from API request.
 
             </p>
           </div>
@@ -87,9 +84,8 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
               </div>
             </div>
             <p className="mt-4">
-            • Contributed to android application built with the likeness of Tinder and Craigslist. <br/>
-            • Fulfilled the role of UI/UX by creating layouts and UI designs in Android Studios.
-
+              Android application built with inspiration from Tinder and Craigslist.
+              Fulfilled the role of UI/UX by creating layouts and UI designs in Android Studios.
             </p>
           </div>
           <div className="lg:basis-2/5 h-full m-auto ">
