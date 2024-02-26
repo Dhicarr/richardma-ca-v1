@@ -11,8 +11,8 @@ const TitleSection = (): JSX.Element => {
     <main className="box relative flex w-full z-1 overflow-hidden justify-center mb-4 p-12 text-center md:text-left
      lg:justify-normal lg:mb-0 lg:p-0 h-screen md:h-[110vh]" >
       <DarkSky/>
-      <div className="flex flex-col-reverse w-full lg:flex-row mt-0 md:mt-0 lg:mt-0">
-        <div className="flex lg:basis-1/2 h-full justify-center">
+      <div className="flex flex-col-reverse w-full lg:flex-row mt-0 md:mt-0 lg:mt-0 2xl:gap-20">
+        <div className="flex lg:basis-1/2 h-full justify-center 2xl:justify-end">
           <div className="flex flex-col justify-center lg:ml-10">
             <span className="border-4 py-12 px-2 md:border-none md:p-0">
             <div className="text-xl md:text-3xl ">
@@ -38,7 +38,7 @@ const TitleSection = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="hidden lg:-mt-16 lg:flex lg:basis-1/2 flex-col justify-center fade-in-right opacity-0 h-full items-center">
+        <div className="hidden lg:-mt-16 lg:flex lg:basis-1/2 flex-col justify-center fade-in-right opacity-0 h-full items-center 2xl:items-start">
           <NavBar/>
           <img className="white-shadow h-80 lg:h-80 xl:h-96 w-auto border-4" src={image1.src} />
         </div>
