@@ -23,7 +23,7 @@ const CursorGlow = (): JSX.Element => {
       style={{
         left: cursorPosition.x,
         top: cursorPosition.y,
-        filter:"blur(12rem)",
+        filter:"blur(10rem)",
       }}
     >
     </div>
