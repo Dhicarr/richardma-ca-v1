@@ -17,7 +17,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
 
       <div className="flex flex-col justify-center align-middle content-center w-full">
 
-        <div className="flex flex-col-reverse gap-4 md:gap-0 md:flex-row mt-4 p-2 flex-wrap border-corner">
+        <div className="flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row mt-4 px-2 py-4 flex-wrap border-corner">
           <div className="lg:basis-3/5 md:p-4 mb-4 lg:mb-0">
             <a className="flex gap-2 justify-center md:justify-normal" href="https://main.d38xdqyw5jo4so.amplifyapp.com/">
               <div className="text-animation font-bold">Trivia Game</div>
@@ -48,7 +48,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4 md:gap-0 md:flex-row mt-4 p-2 flex-wrap border-corner">
+        <div className="flex flex-col gap-4 lg:gap-0 lg:flex-row mt-4 px-2 py-4 flex-wrap border-corner">
           <div className="lg:basis-2/5 h-full m-auto ">
             <Image 
               className="flex justify-center border-4 border-purple-500"
@@ -78,7 +78,7 @@ const ProjectSection = ({sectionClass}:ComponentProps): JSX.Element => {
           </div>
         </div>
         
-        <div className="flex flex-col-reverse gap-4 md:gap-0 md:flex-row mt-4 p-2 flex-wrap border-corner">
+        <div className="flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row mt-4 px-2 py-4 flex-wrap border-corner">
           <div className="lg:basis-3/5 md:p-4 mb-4 lg:mb-0">
             <div className="font-bold flex gap-2 justify-center md:justify-normal">CopIt Android App</div>
             <div className="flex justify-between">
