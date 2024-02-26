@@ -13,12 +13,9 @@ const AboutSection = ({sectionClass}:ComponentProps): JSX.Element => {
       <div className="border-corner p-8 mt-4">
         <div className="md:text-lg relative">
           <p>
-            As a software engineer, I am fueled by my passion for technology and my 
-            love for learning and solving new challenges. I have professional experience 
-            building responsive React webpages, and in depth back-end knowledge on data 
-            structures, algorithms, and databases gained during my undergraduate studies. 
-            I am constantly seeking out new opportunities to grow my skills and knowledge, 
-            and I approach each challenge with enthusiasm and curiosity.
+            From being formally trained in computer science at the University of Toronto, 
+            to tackling new skills working on side-projects, to working professionally as a web developer. 
+            I love solving problems in coding no matter what I'm working with!
           </p>
         </div>
         <div className="mt-12 text-center text-purple-500 italic">

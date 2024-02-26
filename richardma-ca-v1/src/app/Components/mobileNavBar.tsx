@@ -12,10 +12,10 @@ const MobileNavBar = (): JSX.Element => {
           <a href="#experience">Experience</a>
         </li>
         <li className="hover:text-purple-500 transition-colors">
-          <a href="#project">Project</a>
+          <a href="#skill">Skills</a>
         </li>
         <li className="hover:text-purple-500 transition-colors">
-          <a href="#skill">Skills</a>
+          <a href="#project">Project</a>
         </li>
       </ul>
     </nav>
