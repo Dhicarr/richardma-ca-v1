@@ -19,11 +19,11 @@ const CursorGlow = (): JSX.Element => {
   return (
     <div
       className="hidden lg:block circle absolute -translate-x-1/2 -translate-y-1/2 
-      w-[250px] h-[250px] rounded-full -z-10 bg-purple-500 filter-[blur(10rem)]"
+      w-[200px] h-[200px] rounded-full -z-10 bg-purple-500"
       style={{
         left: cursorPosition.x,
         top: cursorPosition.y,
-        filter:"blur(15rem)",
+        filter:"blur(12rem)",
       }}
     >
     </div>
