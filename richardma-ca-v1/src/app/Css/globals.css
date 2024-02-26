@@ -67,4 +67,5 @@ body {
 
   background-repeat: no-repeat;
   background-size: 40px 30px;
+  backdrop-filter: blur(250px);
 }
