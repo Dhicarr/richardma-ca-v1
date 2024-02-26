@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
-import "./globals.css";
+import "./Css/globals.css";
 import "./Css/animation.css";
 import GoogleAnalytics from "./googleAnalytics";
 
