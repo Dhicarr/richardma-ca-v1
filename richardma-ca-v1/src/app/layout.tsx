@@ -3,6 +3,7 @@ import { Raleway } from "next/font/google";
 import "./Css/globals.css";
 import "./Css/animation.css";
 import GoogleAnalytics from "./googleAnalytics";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const raleway = Raleway({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <SpeedInsights/>
       <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID as string} />
       <body className={raleway.className}>{children}</body>
     </html>
