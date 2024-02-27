@@ -15,7 +15,7 @@ const AboutSection = ({sectionClass}:ComponentProps): JSX.Element => {
           <p>
             From being formally trained in computer science at the University of Toronto, 
             to tackling new skills working on side-projects, to working professionally as a web developer. 
-            I love solving problems in coding no matter what I'm working with!
+            I love solving problems in coding no matter what I&apos;m working with!
           </p>
         </div>
         <div className="mt-12 text-center text-purple-500 italic">
