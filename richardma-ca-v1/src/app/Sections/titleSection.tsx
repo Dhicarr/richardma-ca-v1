@@ -5,6 +5,7 @@ import image1 from '../Images/airplane-pic.png';
 import NavBar from "../Components/navBar";
 import JobTitle from "../Components/jobTitle";
 import DarkSky from "../Components/darkSky";
+import Image from "next/image";
 
 const TitleSection = (): JSX.Element => {
   return (
@@ -40,7 +41,7 @@ const TitleSection = (): JSX.Element => {
 
         <div className="hidden lg:-mt-16 lg:flex lg:basis-1/2 flex-col justify-center fade-in-right opacity-0 h-full items-center 2xl:items-start">
           <NavBar/>
-          <img className="white-shadow h-80 lg:h-80 xl:h-96 w-auto border-4" src={image1.src} />
+          <Image className="white-shadow h-80 lg:h-80 xl:h-96 w-auto border-4" src={image1.src} alt="airplane pic"/>
         </div>
       </div>
     </main>
